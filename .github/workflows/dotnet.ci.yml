@@ -1,0 +1,47 @@
+name: .NET Liniting
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: actions/cache@v3
+      with:
+        path: ~/.nuget/packages
+        key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json', '**/dotnet-tools.json') }}
+        restore-keys: |
+          ${{ runner.os }}-nuget-
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 7.0.200
+
+    - name: Restore dependencies
+      run: |
+        dotnet restore
+
+    - name: Build
+      run: dotnet build -c Release --no-restore
+
+    - name: Format Checking
+      run: dotnet format --no-restore
+
+    - name: Clear
+      run: git clean -fdx
+
+    - name: Upload formatted codebase
+      uses: actions/upload-artifact@v3
+      with:
+        name: linted-$GITHUB_ACTION
+        path: .
