@@ -8,16 +8,18 @@
  */
 
 using System;
-using System.IO;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
 using System.Linq;
 using System.Reflection;
-using RestSharp;
-using Xunit;
 
-using Amazon.Advertising.SponsoredProducts.Client;
 using Amazon.Advertising.SponsoredProducts.Api;
+using Amazon.Advertising.SponsoredProducts.Client;
+
+using RestSharp;
+
+using Xunit;
 // uncomment below to import models
 //using Amazon.Advertising.SponsoredProducts.Model;
 
@@ -32,7 +34,7 @@ namespace Amazon.Advertising.SponsoredProducts.Test.Api
     /// </remarks>
     public class KeywordsApiTests : IDisposable
     {
-        private KeywordsApi instance;
+        private readonly KeywordsApi instance;
 
         public KeywordsApiTests()
         {

@@ -8,17 +8,19 @@
  */
 
 
-using Xunit;
-
 using System;
-using System.Linq;
-using System.IO;
 using System.Collections.Generic;
-using Amazon.Advertising.SponsoredProducts.Api;
-using Amazon.Advertising.SponsoredProducts.Model;
-using Amazon.Advertising.SponsoredProducts.Client;
+using System.IO;
+using System.Linq;
 using System.Reflection;
+
+using Amazon.Advertising.SponsoredProducts.Api;
+using Amazon.Advertising.SponsoredProducts.Client;
+using Amazon.Advertising.SponsoredProducts.Model;
+
 using Newtonsoft.Json;
+
+using Xunit;
 
 namespace Amazon.Advertising.SponsoredProducts.Test.Model
 {

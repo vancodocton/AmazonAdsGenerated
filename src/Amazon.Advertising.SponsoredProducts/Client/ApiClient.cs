@@ -19,16 +19,20 @@ using System.Reflection;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters;
 using System.Text;
-using System.Threading;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
+
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+
+using Polly;
+
 using RestSharp;
 using RestSharp.Serializers;
+
 using RestSharpMethod = RestSharp.Method;
-using Polly;
 
 namespace Amazon.Advertising.SponsoredProducts.Client
 {
