@@ -130,22 +130,22 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Cursor == input.Cursor ||
                     (this.Cursor != null &&
                     this.Cursor.Equals(input.Cursor))
-                ) && 
+                ) &&
                 (
                     this.AdAsins == input.AdAsins ||
                     this.AdAsins != null &&
                     input.AdAsins != null &&
                     this.AdAsins.SequenceEqual(input.AdAsins)
-                ) && 
+                ) &&
                 (
                     this.Count == input.Count ||
                     this.Count.Equals(input.Count)
-                ) && 
+                ) &&
                 (
                     this.Locale == input.Locale ||
                     (this.Locale != null &&
@@ -189,7 +189,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             // Count (int) minimum
             if (this.Count < (int)1)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Count, must be a value greater than or equal to 1.", new [] { "Count" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Count, must be a value greater than or equal to 1.", new[] { "Count" });
             }
 
             yield break;

@@ -216,53 +216,53 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Expression == input.Expression ||
                     this.Expression != null &&
                     input.Expression != null &&
                     this.Expression.SequenceEqual(input.Expression)
-                ) && 
+                ) &&
                 (
                     this.TargetId == input.TargetId ||
                     (this.TargetId != null &&
                     this.TargetId.Equals(input.TargetId))
-                ) && 
+                ) &&
                 (
                     this.ResolvedExpression == input.ResolvedExpression ||
                     this.ResolvedExpression != null &&
                     input.ResolvedExpression != null &&
                     this.ResolvedExpression.SequenceEqual(input.ResolvedExpression)
-                ) && 
+                ) &&
                 (
                     this.CampaignId == input.CampaignId ||
                     (this.CampaignId != null &&
                     this.CampaignId.Equals(input.CampaignId))
-                ) && 
+                ) &&
                 (
                     this.Name == input.Name ||
                     (this.Name != null &&
                     this.Name.Equals(input.Name))
-                ) && 
+                ) &&
                 (
                     this.ExpressionType == input.ExpressionType ||
                     this.ExpressionType.Equals(input.ExpressionType)
-                ) && 
+                ) &&
                 (
                     this.State == input.State ||
                     (this.State != null &&
                     this.State.Equals(input.State))
-                ) && 
+                ) &&
                 (
                     this.Bid == input.Bid ||
                     (this.Bid != null &&
                     this.Bid.Equals(input.Bid))
-                ) && 
+                ) &&
                 (
                     this.AdGroupId == input.AdGroupId ||
                     (this.AdGroupId != null &&
                     this.AdGroupId.Equals(input.AdGroupId))
-                ) && 
+                ) &&
                 (
                     this.ExtendedData == input.ExtendedData ||
                     (this.ExtendedData != null &&

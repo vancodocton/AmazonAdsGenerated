@@ -109,12 +109,12 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.AdId == input.AdId ||
                     (this.AdId != null &&
                     this.AdId.Equals(input.AdId))
-                ) && 
+                ) &&
                 (
                     this.State == input.State ||
                     this.State.Equals(input.State)

@@ -146,20 +146,20 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.SuggestedBid == input.SuggestedBid ||
                     (this.SuggestedBid != null &&
                     this.SuggestedBid.Equals(input.SuggestedBid))
-                ) && 
+                ) &&
                 (
                     this.MatchType == input.MatchType ||
                     this.MatchType.Equals(input.MatchType)
-                ) && 
+                ) &&
                 (
                     this.Rank == input.Rank ||
                     this.Rank.Equals(input.Rank)
-                ) && 
+                ) &&
                 (
                     this.Bid == input.Bid ||
                     this.Bid.Equals(input.Bid)

@@ -99,7 +99,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.NegativeKeywords == input.NegativeKeywords ||
                     this.NegativeKeywords != null &&

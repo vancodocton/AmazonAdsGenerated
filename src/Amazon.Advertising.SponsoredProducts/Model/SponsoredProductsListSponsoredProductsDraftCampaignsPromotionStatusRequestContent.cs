@@ -119,16 +119,16 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.CampaignIdFilter == input.CampaignIdFilter ||
                     (this.CampaignIdFilter != null &&
                     this.CampaignIdFilter.Equals(input.CampaignIdFilter))
-                ) && 
+                ) &&
                 (
                     this.MaxResults == input.MaxResults ||
                     this.MaxResults.Equals(input.MaxResults)
-                ) && 
+                ) &&
                 (
                     this.NextToken == input.NextToken ||
                     (this.NextToken != null &&

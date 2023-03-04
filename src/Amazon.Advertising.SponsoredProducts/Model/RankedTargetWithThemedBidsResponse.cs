@@ -99,13 +99,13 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.KeywordTargetList == input.KeywordTargetList ||
                     this.KeywordTargetList != null &&
                     input.KeywordTargetList != null &&
                     this.KeywordTargetList.SequenceEqual(input.KeywordTargetList)
-                ) && 
+                ) &&
                 (
                     this.ImpactMetrics == input.ImpactMetrics ||
                     this.ImpactMetrics != null &&

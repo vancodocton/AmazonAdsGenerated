@@ -98,12 +98,12 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Clicks == input.Clicks ||
                     (this.Clicks != null &&
                     this.Clicks.Equals(input.Clicks))
-                ) && 
+                ) &&
                 (
                     this.Orders == input.Orders ||
                     (this.Orders != null &&

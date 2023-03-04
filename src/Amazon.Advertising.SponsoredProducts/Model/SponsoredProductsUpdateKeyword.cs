@@ -119,16 +119,16 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.KeywordId == input.KeywordId ||
                     (this.KeywordId != null &&
                     this.KeywordId.Equals(input.KeywordId))
-                ) && 
+                ) &&
                 (
                     this.State == input.State ||
                     this.State.Equals(input.State)
-                ) && 
+                ) &&
                 (
                     this.Bid == input.Bid ||
                     (this.Bid != null &&
@@ -168,7 +168,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             // Bid (double?) minimum
             if (this.Bid < (double?)0.02)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Bid, must be a value greater than or equal to 0.02.", new [] { "Bid" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Bid, must be a value greater than or equal to 0.02.", new[] { "Bid" });
             }
 
             yield break;

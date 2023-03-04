@@ -130,17 +130,17 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.CampaignId == input.CampaignId ||
                     (this.CampaignId != null &&
                     this.CampaignId.Equals(input.CampaignId))
-                ) && 
+                ) &&
                 (
                     this.RuleStatus == input.RuleStatus ||
                     (this.RuleStatus != null &&
                     this.RuleStatus.Equals(input.RuleStatus))
-                ) && 
+                ) &&
                 (
                     this.CampaignName == input.CampaignName ||
                     (this.CampaignName != null &&

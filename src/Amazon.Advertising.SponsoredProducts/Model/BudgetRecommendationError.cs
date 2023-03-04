@@ -124,16 +124,16 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.CampaignId == input.CampaignId ||
                     (this.CampaignId != null &&
                     this.CampaignId.Equals(input.CampaignId))
-                ) && 
+                ) &&
                 (
                     this.Index == input.Index ||
                     this.Index.Equals(input.Index)
-                ) && 
+                ) &&
                 (
                     this.Error == input.Error ||
                     (this.Error != null &&

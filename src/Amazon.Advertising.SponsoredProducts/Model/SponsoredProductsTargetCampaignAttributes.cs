@@ -171,36 +171,36 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.MarketplaceId == input.MarketplaceId ||
                     (this.MarketplaceId != null &&
                     this.MarketplaceId.Equals(input.MarketplaceId))
-                ) && 
+                ) &&
                 (
                     this.EndDate == input.EndDate ||
                     (this.EndDate != null &&
                     this.EndDate.Equals(input.EndDate))
-                ) && 
+                ) &&
                 (
                     this.NameSuffix == input.NameSuffix ||
                     (this.NameSuffix != null &&
                     this.NameSuffix.Equals(input.NameSuffix))
-                ) && 
+                ) &&
                 (
                     this.StartDate == input.StartDate ||
                     (this.StartDate != null &&
                     this.StartDate.Equals(input.StartDate))
-                ) && 
+                ) &&
                 (
                     this.AdvertiserId == input.AdvertiserId ||
                     (this.AdvertiserId != null &&
                     this.AdvertiserId.Equals(input.AdvertiserId))
-                ) && 
+                ) &&
                 (
                     this.Budget == input.Budget ||
                     this.Budget.Equals(input.Budget)
-                ) && 
+                ) &&
                 (
                     this.Status == input.Status ||
                     this.Status.Equals(input.Status)

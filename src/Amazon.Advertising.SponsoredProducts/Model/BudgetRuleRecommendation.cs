@@ -110,16 +110,16 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.SuggestedBudgetIncreasePercent == input.SuggestedBudgetIncreasePercent ||
                     this.SuggestedBudgetIncreasePercent.Equals(input.SuggestedBudgetIncreasePercent)
-                ) && 
+                ) &&
                 (
                     this.RuleName == input.RuleName ||
                     (this.RuleName != null &&
                     this.RuleName.Equals(input.RuleName))
-                ) && 
+                ) &&
                 (
                     this.RuleId == input.RuleId ||
                     (this.RuleId != null &&

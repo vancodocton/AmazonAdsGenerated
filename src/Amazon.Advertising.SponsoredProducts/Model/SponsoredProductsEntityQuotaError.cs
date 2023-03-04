@@ -146,29 +146,29 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Reason == input.Reason ||
                     this.Reason.Equals(input.Reason)
-                ) && 
+                ) &&
                 (
                     this.QuotaScope == input.QuotaScope ||
                     this.QuotaScope.Equals(input.QuotaScope)
-                ) && 
+                ) &&
                 (
                     this.EntityType == input.EntityType ||
                     this.EntityType.Equals(input.EntityType)
-                ) && 
+                ) &&
                 (
                     this.Quota == input.Quota ||
                     (this.Quota != null &&
                     this.Quota.Equals(input.Quota))
-                ) && 
+                ) &&
                 (
                     this.Cause == input.Cause ||
                     (this.Cause != null &&
                     this.Cause.Equals(input.Cause))
-                ) && 
+                ) &&
                 (
                     this.Message == input.Message ||
                     (this.Message != null &&

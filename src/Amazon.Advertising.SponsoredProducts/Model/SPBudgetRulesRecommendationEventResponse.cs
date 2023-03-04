@@ -90,7 +90,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.RecommendedBudgetRuleEvents == input.RecommendedBudgetRuleEvents ||
                     this.RecommendedBudgetRuleEvents != null &&

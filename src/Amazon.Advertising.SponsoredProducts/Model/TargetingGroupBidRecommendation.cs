@@ -196,24 +196,24 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.SuggestedBid == input.SuggestedBid ||
                     this.SuggestedBid.Equals(input.SuggestedBid)
-                ) && 
+                ) &&
                 (
                     this.TargetId == input.TargetId ||
                     (this.TargetId != null &&
                     this.TargetId.Equals(input.TargetId))
-                ) && 
+                ) &&
                 (
                     this.TargetingGroupExpression == input.TargetingGroupExpression ||
                     this.TargetingGroupExpression.Equals(input.TargetingGroupExpression)
-                ) && 
+                ) &&
                 (
                     this.Action == input.Action ||
                     this.Action.Equals(input.Action)
-                ) && 
+                ) &&
                 (
                     this.AdGroupId == input.AdGroupId ||
                     (this.AdGroupId != null &&

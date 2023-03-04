@@ -110,12 +110,12 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.EndDate == input.EndDate ||
                     (this.EndDate != null &&
                     this.EndDate.Equals(input.EndDate))
-                ) && 
+                ) &&
                 (
                     this.StartDate == input.StartDate ||
                     (this.StartDate != null &&

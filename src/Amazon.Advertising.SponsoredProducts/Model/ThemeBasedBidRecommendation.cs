@@ -118,17 +118,17 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Theme == input.Theme ||
                     this.Theme.Equals(input.Theme)
-                ) && 
+                ) &&
                 (
                     this.BidRecommendationsForTargetingExpressions == input.BidRecommendationsForTargetingExpressions ||
                     this.BidRecommendationsForTargetingExpressions != null &&
                     input.BidRecommendationsForTargetingExpressions != null &&
                     this.BidRecommendationsForTargetingExpressions.SequenceEqual(input.BidRecommendationsForTargetingExpressions)
-                ) && 
+                ) &&
                 (
                     this.ImpactMetrics == input.ImpactMetrics ||
                     (this.ImpactMetrics != null &&

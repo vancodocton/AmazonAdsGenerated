@@ -138,26 +138,26 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Expression == input.Expression ||
                     this.Expression != null &&
                     input.Expression != null &&
                     this.Expression.SequenceEqual(input.Expression)
-                ) && 
+                ) &&
                 (
                     this.TargetId == input.TargetId ||
                     (this.TargetId != null &&
                     this.TargetId.Equals(input.TargetId))
-                ) && 
+                ) &&
                 (
                     this.ExpressionType == input.ExpressionType ||
                     this.ExpressionType.Equals(input.ExpressionType)
-                ) && 
+                ) &&
                 (
                     this.State == input.State ||
                     this.State.Equals(input.State)
-                ) && 
+                ) &&
                 (
                     this.Bid == input.Bid ||
                     (this.Bid != null &&

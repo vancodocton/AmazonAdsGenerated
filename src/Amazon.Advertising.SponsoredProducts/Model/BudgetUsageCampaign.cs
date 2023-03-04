@@ -130,25 +130,25 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.BudgetUsagePercent == input.BudgetUsagePercent ||
                     this.BudgetUsagePercent.Equals(input.BudgetUsagePercent)
-                ) && 
+                ) &&
                 (
                     this.CampaignId == input.CampaignId ||
                     (this.CampaignId != null &&
                     this.CampaignId.Equals(input.CampaignId))
-                ) && 
+                ) &&
                 (
                     this.UsageUpdatedTimestamp == input.UsageUpdatedTimestamp ||
                     (this.UsageUpdatedTimestamp != null &&
                     this.UsageUpdatedTimestamp.Equals(input.UsageUpdatedTimestamp))
-                ) && 
+                ) &&
                 (
                     this.Index == input.Index ||
                     this.Index.Equals(input.Index)
-                ) && 
+                ) &&
                 (
                     this.Budget == input.Budget ||
                     this.Budget.Equals(input.Budget)

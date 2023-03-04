@@ -152,42 +152,42 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.EntityNotFoundError == input.EntityNotFoundError ||
                     (this.EntityNotFoundError != null &&
                     this.EntityNotFoundError.Equals(input.EntityNotFoundError))
-                ) && 
+                ) &&
                 (
                     this.MissingValueError == input.MissingValueError ||
                     (this.MissingValueError != null &&
                     this.MissingValueError.Equals(input.MissingValueError))
-                ) && 
+                ) &&
                 (
                     this.MalformedValueError == input.MalformedValueError ||
                     (this.MalformedValueError != null &&
                     this.MalformedValueError.Equals(input.MalformedValueError))
-                ) && 
+                ) &&
                 (
                     this.InternalServerError == input.InternalServerError ||
                     (this.InternalServerError != null &&
                     this.InternalServerError.Equals(input.InternalServerError))
-                ) && 
+                ) &&
                 (
                     this.RangeError == input.RangeError ||
                     (this.RangeError != null &&
                     this.RangeError.Equals(input.RangeError))
-                ) && 
+                ) &&
                 (
                     this.OtherError == input.OtherError ||
                     (this.OtherError != null &&
                     this.OtherError.Equals(input.OtherError))
-                ) && 
+                ) &&
                 (
                     this.InvalidInputError == input.InvalidInputError ||
                     (this.InvalidInputError != null &&
                     this.InvalidInputError.Equals(input.InvalidInputError))
-                ) && 
+                ) &&
                 (
                     this.ThrottledError == input.ThrottledError ||
                     (this.ThrottledError != null &&

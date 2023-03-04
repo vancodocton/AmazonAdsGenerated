@@ -110,12 +110,12 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Location == input.Location ||
                     (this.Location != null &&
                     this.Location.Equals(input.Location))
-                ) && 
+                ) &&
                 (
                     this.Trigger == input.Trigger ||
                     (this.Trigger != null &&

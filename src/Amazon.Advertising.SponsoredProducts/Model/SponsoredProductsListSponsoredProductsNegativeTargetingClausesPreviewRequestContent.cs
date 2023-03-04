@@ -155,41 +155,41 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.NegativeTargetIdFilter == input.NegativeTargetIdFilter ||
                     (this.NegativeTargetIdFilter != null &&
                     this.NegativeTargetIdFilter.Equals(input.NegativeTargetIdFilter))
-                ) && 
+                ) &&
                 (
                     this.CampaignIdFilter == input.CampaignIdFilter ||
                     (this.CampaignIdFilter != null &&
                     this.CampaignIdFilter.Equals(input.CampaignIdFilter))
-                ) && 
+                ) &&
                 (
                     this.StateFilter == input.StateFilter ||
                     (this.StateFilter != null &&
                     this.StateFilter.Equals(input.StateFilter))
-                ) && 
+                ) &&
                 (
                     this.MaxResults == input.MaxResults ||
                     this.MaxResults.Equals(input.MaxResults)
-                ) && 
+                ) &&
                 (
                     this.NextToken == input.NextToken ||
                     (this.NextToken != null &&
                     this.NextToken.Equals(input.NextToken))
-                ) && 
+                ) &&
                 (
                     this.AsinFilter == input.AsinFilter ||
                     (this.AsinFilter != null &&
                     this.AsinFilter.Equals(input.AsinFilter))
-                ) && 
+                ) &&
                 (
                     this.AdGroupIdFilter == input.AdGroupIdFilter ||
                     (this.AdGroupIdFilter != null &&
                     this.AdGroupIdFilter.Equals(input.AdGroupIdFilter))
-                ) && 
+                ) &&
                 (
                     this.IncludeExtendedDataFields == input.IncludeExtendedDataFields ||
                     this.IncludeExtendedDataFields.Equals(input.IncludeExtendedDataFields)

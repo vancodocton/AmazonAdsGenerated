@@ -108,12 +108,12 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Identifier == input.Identifier ||
                     (this.Identifier != null &&
                     this.Identifier.Equals(input.Identifier))
-                ) && 
+                ) &&
                 (
                     this.Marketplace == input.Marketplace ||
                     this.Marketplace.Equals(input.Marketplace)

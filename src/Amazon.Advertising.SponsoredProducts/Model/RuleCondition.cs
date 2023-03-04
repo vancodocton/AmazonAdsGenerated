@@ -113,15 +113,15 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.MetricName == input.MetricName ||
                     this.MetricName.Equals(input.MetricName)
-                ) && 
+                ) &&
                 (
                     this.ComparisonOperator == input.ComparisonOperator ||
                     this.ComparisonOperator.Equals(input.ComparisonOperator)
-                ) && 
+                ) &&
                 (
                     this.Threshold == input.Threshold ||
                     this.Threshold.Equals(input.Threshold)

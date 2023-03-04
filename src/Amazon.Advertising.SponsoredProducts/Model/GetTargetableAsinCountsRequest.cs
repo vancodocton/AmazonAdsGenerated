@@ -158,39 +158,39 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.AgeRanges == input.AgeRanges ||
                     this.AgeRanges != null &&
                     input.AgeRanges != null &&
                     this.AgeRanges.SequenceEqual(input.AgeRanges)
-                ) && 
+                ) &&
                 (
                     this.Brands == input.Brands ||
                     this.Brands != null &&
                     input.Brands != null &&
                     this.Brands.SequenceEqual(input.Brands)
-                ) && 
+                ) &&
                 (
                     this.Genres == input.Genres ||
                     this.Genres != null &&
                     input.Genres != null &&
                     this.Genres.SequenceEqual(input.Genres)
-                ) && 
+                ) &&
                 (
                     this.IsPrimeShipping == input.IsPrimeShipping ||
                     this.IsPrimeShipping.Equals(input.IsPrimeShipping)
-                ) && 
+                ) &&
                 (
                     this.RatingRange == input.RatingRange ||
                     (this.RatingRange != null &&
                     this.RatingRange.Equals(input.RatingRange))
-                ) && 
+                ) &&
                 (
                     this.Category == input.Category ||
                     (this.Category != null &&
                     this.Category.Equals(input.Category))
-                ) && 
+                ) &&
                 (
                     this.PriceRange == input.PriceRange ||
                     (this.PriceRange != null &&

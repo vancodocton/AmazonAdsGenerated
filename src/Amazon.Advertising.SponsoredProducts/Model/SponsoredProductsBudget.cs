@@ -114,15 +114,15 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.BudgetType == input.BudgetType ||
                     this.BudgetType.Equals(input.BudgetType)
-                ) && 
+                ) &&
                 (
                     this.Budget == input.Budget ||
                     this.Budget.Equals(input.Budget)
-                ) && 
+                ) &&
                 (
                     this.EffectiveBudget == input.EffectiveBudget ||
                     this.EffectiveBudget.Equals(input.EffectiveBudget)

@@ -170,41 +170,41 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.EstimatedMissedSalesLower == input.EstimatedMissedSalesLower ||
                     this.EstimatedMissedSalesLower.Equals(input.EstimatedMissedSalesLower)
-                ) && 
+                ) &&
                 (
                     this.EstimatedMissedSalesUpper == input.EstimatedMissedSalesUpper ||
                     this.EstimatedMissedSalesUpper.Equals(input.EstimatedMissedSalesUpper)
-                ) && 
+                ) &&
                 (
                     this.EndDate == input.EndDate ||
                     (this.EndDate != null &&
                     this.EndDate.Equals(input.EndDate))
-                ) && 
+                ) &&
                 (
                     this.EstimatedMissedImpressionsLower == input.EstimatedMissedImpressionsLower ||
                     this.EstimatedMissedImpressionsLower.Equals(input.EstimatedMissedImpressionsLower)
-                ) && 
+                ) &&
                 (
                     this.EstimatedMissedClicksLower == input.EstimatedMissedClicksLower ||
                     this.EstimatedMissedClicksLower.Equals(input.EstimatedMissedClicksLower)
-                ) && 
+                ) &&
                 (
                     this.EstimatedMissedClicksUpper == input.EstimatedMissedClicksUpper ||
                     this.EstimatedMissedClicksUpper.Equals(input.EstimatedMissedClicksUpper)
-                ) && 
+                ) &&
                 (
                     this.EstimatedMissedImpressionsUpper == input.EstimatedMissedImpressionsUpper ||
                     this.EstimatedMissedImpressionsUpper.Equals(input.EstimatedMissedImpressionsUpper)
-                ) && 
+                ) &&
                 (
                     this.StartDate == input.StartDate ||
                     (this.StartDate != null &&
                     this.StartDate.Equals(input.StartDate))
-                ) && 
+                ) &&
                 (
                     this.PercentTimeInBudget == input.PercentTimeInBudget ||
                     this.PercentTimeInBudget.Equals(input.PercentTimeInBudget)

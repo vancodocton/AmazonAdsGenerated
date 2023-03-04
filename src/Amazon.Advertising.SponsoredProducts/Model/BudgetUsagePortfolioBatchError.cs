@@ -120,21 +120,21 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.PortfolioId == input.PortfolioId ||
                     (this.PortfolioId != null &&
                     this.PortfolioId.Equals(input.PortfolioId))
-                ) && 
+                ) &&
                 (
                     this.Code == input.Code ||
                     (this.Code != null &&
                     this.Code.Equals(input.Code))
-                ) && 
+                ) &&
                 (
                     this.Index == input.Index ||
                     this.Index.Equals(input.Index)
-                ) && 
+                ) &&
                 (
                     this.Details == input.Details ||
                     (this.Details != null &&

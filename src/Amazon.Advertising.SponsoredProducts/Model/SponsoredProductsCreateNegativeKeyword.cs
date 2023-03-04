@@ -168,35 +168,35 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.NativeLanguageKeyword == input.NativeLanguageKeyword ||
                     (this.NativeLanguageKeyword != null &&
                     this.NativeLanguageKeyword.Equals(input.NativeLanguageKeyword))
-                ) && 
+                ) &&
                 (
                     this.NativeLanguageLocale == input.NativeLanguageLocale ||
                     (this.NativeLanguageLocale != null &&
                     this.NativeLanguageLocale.Equals(input.NativeLanguageLocale))
-                ) && 
+                ) &&
                 (
                     this.CampaignId == input.CampaignId ||
                     (this.CampaignId != null &&
                     this.CampaignId.Equals(input.CampaignId))
-                ) && 
+                ) &&
                 (
                     this.MatchType == input.MatchType ||
                     this.MatchType.Equals(input.MatchType)
-                ) && 
+                ) &&
                 (
                     this.State == input.State ||
                     this.State.Equals(input.State)
-                ) && 
+                ) &&
                 (
                     this.AdGroupId == input.AdGroupId ||
                     (this.AdGroupId != null &&
                     this.AdGroupId.Equals(input.AdGroupId))
-                ) && 
+                ) &&
                 (
                     this.KeywordText == input.KeywordText ||
                     (this.KeywordText != null &&

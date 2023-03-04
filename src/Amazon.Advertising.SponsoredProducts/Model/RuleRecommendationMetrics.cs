@@ -90,7 +90,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Roas == input.Roas ||
                     this.Roas.Equals(input.Roas)

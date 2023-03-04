@@ -100,13 +100,13 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Themes == input.Themes ||
                     this.Themes != null &&
                     input.Themes != null &&
                     this.Themes.SequenceEqual(input.Themes)
-                ) && 
+                ) &&
                 (
                     this.RecommendedAsin == input.RecommendedAsin ||
                     (this.RecommendedAsin != null &&
@@ -145,13 +145,13 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             // RecommendedAsin (string) maxLength
             if (this.RecommendedAsin != null && this.RecommendedAsin.Length > 10)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for RecommendedAsin, length must be less than 10.", new [] { "RecommendedAsin" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for RecommendedAsin, length must be less than 10.", new[] { "RecommendedAsin" });
             }
 
             // RecommendedAsin (string) minLength
             if (this.RecommendedAsin != null && this.RecommendedAsin.Length < 10)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for RecommendedAsin, length must be greater than 10.", new [] { "RecommendedAsin" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for RecommendedAsin, length must be greater than 10.", new[] { "RecommendedAsin" });
             }
 
             yield break;

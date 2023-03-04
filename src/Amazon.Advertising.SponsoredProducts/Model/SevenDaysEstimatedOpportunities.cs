@@ -120,20 +120,20 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.EstimatedIncrementalClicksLower == input.EstimatedIncrementalClicksLower ||
                     this.EstimatedIncrementalClicksLower.Equals(input.EstimatedIncrementalClicksLower)
-                ) && 
+                ) &&
                 (
                     this.EstimatedIncrementalClicksUpper == input.EstimatedIncrementalClicksUpper ||
                     this.EstimatedIncrementalClicksUpper.Equals(input.EstimatedIncrementalClicksUpper)
-                ) && 
+                ) &&
                 (
                     this.EndDate == input.EndDate ||
                     (this.EndDate != null &&
                     this.EndDate.Equals(input.EndDate))
-                ) && 
+                ) &&
                 (
                     this.StartDate == input.StartDate ||
                     (this.StartDate != null &&

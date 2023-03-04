@@ -176,34 +176,34 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.SuggestedBid == input.SuggestedBid ||
                     (this.SuggestedBid != null &&
                     this.SuggestedBid.Equals(input.SuggestedBid))
-                ) && 
+                ) &&
                 (
                     this.Translation == input.Translation ||
                     (this.Translation != null &&
                     this.Translation.Equals(input.Translation))
-                ) && 
+                ) &&
                 (
                     this.Rank == input.Rank ||
                     this.Rank.Equals(input.Rank)
-                ) && 
+                ) &&
                 (
                     this.MatchType == input.MatchType ||
                     this.MatchType.Equals(input.MatchType)
-                ) && 
+                ) &&
                 (
                     this.Keyword == input.Keyword ||
                     (this.Keyword != null &&
                     this.Keyword.Equals(input.Keyword))
-                ) && 
+                ) &&
                 (
                     this.Bid == input.Bid ||
                     this.Bid.Equals(input.Bid)
-                ) && 
+                ) &&
                 (
                     this.UserSelectedKeyword == input.UserSelectedKeyword ||
                     this.UserSelectedKeyword.Equals(input.UserSelectedKeyword)

@@ -130,22 +130,22 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.EventId == input.EventId ||
                     (this.EventId != null &&
                     this.EventId.Equals(input.EventId))
-                ) && 
+                ) &&
                 (
                     this.EndDate == input.EndDate ||
                     (this.EndDate != null &&
                     this.EndDate.Equals(input.EndDate))
-                ) && 
+                ) &&
                 (
                     this.EventName == input.EventName ||
                     (this.EventName != null &&
                     this.EventName.Equals(input.EventName))
-                ) && 
+                ) &&
                 (
                     this.StartDate == input.StartDate ||
                     (this.StartDate != null &&

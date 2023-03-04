@@ -130,26 +130,26 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Parent == input.Parent ||
                     (this.Parent != null &&
                     this.Parent.Equals(input.Parent))
-                ) && 
+                ) &&
                 (
                     this.Path == input.Path ||
                     (this.Path != null &&
                     this.Path.Equals(input.Path))
-                ) && 
+                ) &&
                 (
                     this.CanBeTargeted == input.CanBeTargeted ||
                     this.CanBeTargeted.Equals(input.CanBeTargeted)
-                ) && 
+                ) &&
                 (
                     this.Name == input.Name ||
                     (this.Name != null &&
                     this.Name.Equals(input.Name))
-                ) && 
+                ) &&
                 (
                     this.Id == input.Id ||
                     (this.Id != null &&

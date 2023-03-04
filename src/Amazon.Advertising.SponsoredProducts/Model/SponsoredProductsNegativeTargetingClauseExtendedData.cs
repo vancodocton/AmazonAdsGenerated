@@ -119,22 +119,22 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.LastUpdateDateTime == input.LastUpdateDateTime ||
                     (this.LastUpdateDateTime != null &&
                     this.LastUpdateDateTime.Equals(input.LastUpdateDateTime))
-                ) && 
+                ) &&
                 (
                     this.ServingStatus == input.ServingStatus ||
                     this.ServingStatus.Equals(input.ServingStatus)
-                ) && 
+                ) &&
                 (
                     this.ServingStatusDetails == input.ServingStatusDetails ||
                     this.ServingStatusDetails != null &&
                     input.ServingStatusDetails != null &&
                     this.ServingStatusDetails.SequenceEqual(input.ServingStatusDetails)
-                ) && 
+                ) &&
                 (
                     this.CreationDateTime == input.CreationDateTime ||
                     (this.CreationDateTime != null &&

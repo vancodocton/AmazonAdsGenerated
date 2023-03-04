@@ -99,7 +99,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Include == input.Include ||
                     this.Include != null &&

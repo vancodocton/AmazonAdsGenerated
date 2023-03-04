@@ -109,19 +109,19 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.StatusReasons == input.StatusReasons ||
                     this.StatusReasons != null &&
                     input.StatusReasons != null &&
                     this.StatusReasons.SequenceEqual(input.StatusReasons)
-                ) && 
+                ) &&
                 (
                     this.MarketplaceKeywordServingStatus == input.MarketplaceKeywordServingStatus ||
                     this.MarketplaceKeywordServingStatus != null &&
                     input.MarketplaceKeywordServingStatus != null &&
                     this.MarketplaceKeywordServingStatus.SequenceEqual(input.MarketplaceKeywordServingStatus)
-                ) && 
+                ) &&
                 (
                     this.KeywordServingStatus == input.KeywordServingStatus ||
                     this.KeywordServingStatus.Equals(input.KeywordServingStatus)

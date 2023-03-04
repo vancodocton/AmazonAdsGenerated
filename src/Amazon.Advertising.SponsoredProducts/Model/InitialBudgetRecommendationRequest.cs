@@ -165,27 +165,27 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Bidding == input.Bidding ||
                     (this.Bidding != null &&
                     this.Bidding.Equals(input.Bidding))
-                ) && 
+                ) &&
                 (
                     this.AdGroups == input.AdGroups ||
                     this.AdGroups != null &&
                     input.AdGroups != null &&
                     this.AdGroups.SequenceEqual(input.AdGroups)
-                ) && 
+                ) &&
                 (
                     this.EndDate == input.EndDate ||
                     (this.EndDate != null &&
                     this.EndDate.Equals(input.EndDate))
-                ) && 
+                ) &&
                 (
                     this.TargetingType == input.TargetingType ||
                     this.TargetingType.Equals(input.TargetingType)
-                ) && 
+                ) &&
                 (
                     this.StartDate == input.StartDate ||
                     (this.StartDate != null &&

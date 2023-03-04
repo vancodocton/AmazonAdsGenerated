@@ -146,36 +146,36 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.CampaignIdFilter == input.CampaignIdFilter ||
                     (this.CampaignIdFilter != null &&
                     this.CampaignIdFilter.Equals(input.CampaignIdFilter))
-                ) && 
+                ) &&
                 (
                     this.CampaignNegativeTargetIdFilter == input.CampaignNegativeTargetIdFilter ||
                     (this.CampaignNegativeTargetIdFilter != null &&
                     this.CampaignNegativeTargetIdFilter.Equals(input.CampaignNegativeTargetIdFilter))
-                ) && 
+                ) &&
                 (
                     this.StateFilter == input.StateFilter ||
                     (this.StateFilter != null &&
                     this.StateFilter.Equals(input.StateFilter))
-                ) && 
+                ) &&
                 (
                     this.MaxResults == input.MaxResults ||
                     this.MaxResults.Equals(input.MaxResults)
-                ) && 
+                ) &&
                 (
                     this.NextToken == input.NextToken ||
                     (this.NextToken != null &&
                     this.NextToken.Equals(input.NextToken))
-                ) && 
+                ) &&
                 (
                     this.AsinFilter == input.AsinFilter ||
                     (this.AsinFilter != null &&
                     this.AsinFilter.Equals(input.AsinFilter))
-                ) && 
+                ) &&
                 (
                     this.IncludeExtendedDataFields == input.IncludeExtendedDataFields ||
                     this.IncludeExtendedDataFields.Equals(input.IncludeExtendedDataFields)

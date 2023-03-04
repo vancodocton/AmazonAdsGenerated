@@ -154,24 +154,24 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Asins == input.Asins ||
                     this.Asins != null &&
                     input.Asins != null &&
                     this.Asins.SequenceEqual(input.Asins)
-                ) && 
+                ) &&
                 (
                     this.TargetingExpressions == input.TargetingExpressions ||
                     this.TargetingExpressions != null &&
                     input.TargetingExpressions != null &&
                     this.TargetingExpressions.SequenceEqual(input.TargetingExpressions)
-                ) && 
+                ) &&
                 (
                     this.Bidding == input.Bidding ||
                     (this.Bidding != null &&
                     this.Bidding.Equals(input.Bidding))
-                ) && 
+                ) &&
                 (
                     this.RecommendationType == input.RecommendationType ||
                     this.RecommendationType.Equals(input.RecommendationType)

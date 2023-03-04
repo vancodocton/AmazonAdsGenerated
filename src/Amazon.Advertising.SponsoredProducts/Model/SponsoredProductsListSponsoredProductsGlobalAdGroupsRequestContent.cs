@@ -119,21 +119,21 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.MaxResults == input.MaxResults ||
                     this.MaxResults.Equals(input.MaxResults)
-                ) && 
+                ) &&
                 (
                     this.NextToken == input.NextToken ||
                     (this.NextToken != null &&
                     this.NextToken.Equals(input.NextToken))
-                ) && 
+                ) &&
                 (
                     this.AdGroupIdFilter == input.AdGroupIdFilter ||
                     (this.AdGroupIdFilter != null &&
                     this.AdGroupIdFilter.Equals(input.AdGroupIdFilter))
-                ) && 
+                ) &&
                 (
                     this.IncludeExtendedDataFields == input.IncludeExtendedDataFields ||
                     this.IncludeExtendedDataFields.Equals(input.IncludeExtendedDataFields)

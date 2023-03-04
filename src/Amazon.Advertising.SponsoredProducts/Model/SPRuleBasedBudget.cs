@@ -128,24 +128,24 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.ExecutionTime == input.ExecutionTime ||
                     this.ExecutionTime.Equals(input.ExecutionTime)
-                ) && 
+                ) &&
                 (
                     this.AppliedRule == input.AppliedRule ||
                     (this.AppliedRule != null &&
                     this.AppliedRule.Equals(input.AppliedRule))
-                ) && 
+                ) &&
                 (
                     this.RuleBasedBudgetValue == input.RuleBasedBudgetValue ||
                     this.RuleBasedBudgetValue.Equals(input.RuleBasedBudgetValue)
-                ) && 
+                ) &&
                 (
                     this.DailyBudgetValue == input.DailyBudgetValue ||
                     this.DailyBudgetValue.Equals(input.DailyBudgetValue)
-                ) && 
+                ) &&
                 (
                     this.PerformanceMetric == input.PerformanceMetric ||
                     (this.PerformanceMetric != null &&

@@ -215,77 +215,77 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.EntityStateError == input.EntityStateError ||
                     (this.EntityStateError != null &&
                     this.EntityStateError.Equals(input.EntityStateError))
-                ) && 
+                ) &&
                 (
                     this.MissingValueError == input.MissingValueError ||
                     (this.MissingValueError != null &&
                     this.MissingValueError.Equals(input.MissingValueError))
-                ) && 
+                ) &&
                 (
                     this.BiddingError == input.BiddingError ||
                     (this.BiddingError != null &&
                     this.BiddingError.Equals(input.BiddingError))
-                ) && 
+                ) &&
                 (
                     this.DuplicateValueError == input.DuplicateValueError ||
                     (this.DuplicateValueError != null &&
                     this.DuplicateValueError.Equals(input.DuplicateValueError))
-                ) && 
+                ) &&
                 (
                     this.RangeError == input.RangeError ||
                     (this.RangeError != null &&
                     this.RangeError.Equals(input.RangeError))
-                ) && 
+                ) &&
                 (
                     this.ParentEntityError == input.ParentEntityError ||
                     (this.ParentEntityError != null &&
                     this.ParentEntityError.Equals(input.ParentEntityError))
-                ) && 
+                ) &&
                 (
                     this.OtherError == input.OtherError ||
                     (this.OtherError != null &&
                     this.OtherError.Equals(input.OtherError))
-                ) && 
+                ) &&
                 (
                     this.ThrottledError == input.ThrottledError ||
                     (this.ThrottledError != null &&
                     this.ThrottledError.Equals(input.ThrottledError))
-                ) && 
+                ) &&
                 (
                     this.EntityNotFoundError == input.EntityNotFoundError ||
                     (this.EntityNotFoundError != null &&
                     this.EntityNotFoundError.Equals(input.EntityNotFoundError))
-                ) && 
+                ) &&
                 (
                     this.TargetingClauseSetupError == input.TargetingClauseSetupError ||
                     (this.TargetingClauseSetupError != null &&
                     this.TargetingClauseSetupError.Equals(input.TargetingClauseSetupError))
-                ) && 
+                ) &&
                 (
                     this.LocaleError == input.LocaleError ||
                     (this.LocaleError != null &&
                     this.LocaleError.Equals(input.LocaleError))
-                ) && 
+                ) &&
                 (
                     this.MalformedValueError == input.MalformedValueError ||
                     (this.MalformedValueError != null &&
                     this.MalformedValueError.Equals(input.MalformedValueError))
-                ) && 
+                ) &&
                 (
                     this.BillingError == input.BillingError ||
                     (this.BillingError != null &&
                     this.BillingError.Equals(input.BillingError))
-                ) && 
+                ) &&
                 (
                     this.EntityQuotaError == input.EntityQuotaError ||
                     (this.EntityQuotaError != null &&
                     this.EntityQuotaError.Equals(input.EntityQuotaError))
-                ) && 
+                ) &&
                 (
                     this.InternalServerError == input.InternalServerError ||
                     (this.InternalServerError != null &&

@@ -100,11 +100,11 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Lower == input.Lower ||
                     this.Lower.Equals(input.Lower)
-                ) && 
+                ) &&
                 (
                     this.Upper == input.Upper ||
                     this.Upper.Equals(input.Upper)

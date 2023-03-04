@@ -99,13 +99,13 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.MarketplaceSettings == input.MarketplaceSettings ||
                     this.MarketplaceSettings != null &&
                     input.MarketplaceSettings != null &&
                     this.MarketplaceSettings.SequenceEqual(input.MarketplaceSettings)
-                ) && 
+                ) &&
                 (
                     this.Type == input.Type ||
                     this.Type.Equals(input.Type)

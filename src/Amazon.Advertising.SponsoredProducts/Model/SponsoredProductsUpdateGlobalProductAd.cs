@@ -137,27 +137,27 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.AdId == input.AdId ||
                     (this.AdId != null &&
                     this.AdId.Equals(input.AdId))
-                ) && 
+                ) &&
                 (
                     this.Name == input.Name ||
                     (this.Name != null &&
                     this.Name.Equals(input.Name))
-                ) && 
+                ) &&
                 (
                     this.Asin == input.Asin ||
                     (this.Asin != null &&
                     this.Asin.Equals(input.Asin))
-                ) && 
+                ) &&
                 (
                     this.State == input.State ||
                     (this.State != null &&
                     this.State.Equals(input.State))
-                ) && 
+                ) &&
                 (
                     this.Sku == input.Sku ||
                     (this.Sku != null &&

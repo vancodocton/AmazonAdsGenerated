@@ -121,11 +121,11 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.SuggestedBudget == input.SuggestedBudget ||
                     this.SuggestedBudget.Equals(input.SuggestedBudget)
-                ) && 
+                ) &&
                 (
                     this.Action == input.Action ||
                     this.Action.Equals(input.Action)

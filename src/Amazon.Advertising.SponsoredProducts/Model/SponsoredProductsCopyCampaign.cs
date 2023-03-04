@@ -114,12 +114,12 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.TargetCampaignAttributes == input.TargetCampaignAttributes ||
                     (this.TargetCampaignAttributes != null &&
                     this.TargetCampaignAttributes.Equals(input.TargetCampaignAttributes))
-                ) && 
+                ) &&
                 (
                     this.SourceCampaignId == input.SourceCampaignId ||
                     (this.SourceCampaignId != null &&

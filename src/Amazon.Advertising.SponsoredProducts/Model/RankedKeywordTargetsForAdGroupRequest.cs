@@ -342,33 +342,33 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.CampaignId == input.CampaignId ||
                     (this.CampaignId != null &&
                     this.CampaignId.Equals(input.CampaignId))
-                ) && 
+                ) &&
                 (
                     this.RecommendationType == input.RecommendationType ||
                     this.RecommendationType.Equals(input.RecommendationType)
-                ) && 
+                ) &&
                 (
                     this.BidsEnabled == input.BidsEnabled ||
                     this.BidsEnabled.Equals(input.BidsEnabled)
-                ) && 
+                ) &&
                 (
                     this.AdGroupId == input.AdGroupId ||
                     (this.AdGroupId != null &&
                     this.AdGroupId.Equals(input.AdGroupId))
-                ) && 
+                ) &&
                 (
                     this.MaxRecommendations == input.MaxRecommendations ||
                     this.MaxRecommendations.Equals(input.MaxRecommendations)
-                ) && 
+                ) &&
                 (
                     this.SortDimension == input.SortDimension ||
                     this.SortDimension.Equals(input.SortDimension)
-                ) && 
+                ) &&
                 (
                     this.Locale == input.Locale ||
                     this.Locale.Equals(input.Locale)
@@ -411,13 +411,13 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             // MaxRecommendations (decimal) maximum
             if (this.MaxRecommendations > (decimal)200)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for MaxRecommendations, must be a value less than or equal to 200.", new [] { "MaxRecommendations" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for MaxRecommendations, must be a value less than or equal to 200.", new[] { "MaxRecommendations" });
             }
 
             // MaxRecommendations (decimal) minimum
             if (this.MaxRecommendations < (decimal)0)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for MaxRecommendations, must be a value greater than or equal to 0.", new [] { "MaxRecommendations" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for MaxRecommendations, must be a value greater than or equal to 0.", new[] { "MaxRecommendations" });
             }
 
             yield break;

@@ -142,11 +142,11 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.SuggestedBiddingStrategy == input.SuggestedBiddingStrategy ||
                     this.SuggestedBiddingStrategy.Equals(input.SuggestedBiddingStrategy)
-                ) && 
+                ) &&
                 (
                     this.Action == input.Action ||
                     this.Action.Equals(input.Action)

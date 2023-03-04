@@ -104,11 +104,11 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Type == input.Type ||
                     this.Type.Equals(input.Type)
-                ) && 
+                ) &&
                 (
                     this.Value == input.Value ||
                     (this.Value != null &&

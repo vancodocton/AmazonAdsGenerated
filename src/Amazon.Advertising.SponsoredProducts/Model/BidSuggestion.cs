@@ -120,20 +120,20 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Suggested == input.Suggested ||
                     this.Suggested.Equals(input.Suggested)
-                ) && 
+                ) &&
                 (
                     this.RangeStart == input.RangeStart ||
                     this.RangeStart.Equals(input.RangeStart)
-                ) && 
+                ) &&
                 (
                     this.BidRecId == input.BidRecId ||
                     (this.BidRecId != null &&
                     this.BidRecId.Equals(input.BidRecId))
-                ) && 
+                ) &&
                 (
                     this.RangeEnd == input.RangeEnd ||
                     this.RangeEnd.Equals(input.RangeEnd)

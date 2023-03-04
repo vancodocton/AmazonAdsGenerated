@@ -135,31 +135,31 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Duration == input.Duration ||
                     (this.Duration != null &&
                     this.Duration.Equals(input.Duration))
-                ) && 
+                ) &&
                 (
                     this.Recurrence == input.Recurrence ||
                     (this.Recurrence != null &&
                     this.Recurrence.Equals(input.Recurrence))
-                ) && 
+                ) &&
                 (
                     this.RuleType == input.RuleType ||
                     this.RuleType.Equals(input.RuleType)
-                ) && 
+                ) &&
                 (
                     this.BudgetIncreaseBy == input.BudgetIncreaseBy ||
                     (this.BudgetIncreaseBy != null &&
                     this.BudgetIncreaseBy.Equals(input.BudgetIncreaseBy))
-                ) && 
+                ) &&
                 (
                     this.Name == input.Name ||
                     (this.Name != null &&
                     this.Name.Equals(input.Name))
-                ) && 
+                ) &&
                 (
                     this.PerformanceMeasureCondition == input.PerformanceMeasureCondition ||
                     (this.PerformanceMeasureCondition != null &&
@@ -211,7 +211,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             // Name (string) maxLength
             if (this.Name != null && this.Name.Length > 355)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Name, length must be less than 355.", new [] { "Name" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Name, length must be less than 355.", new[] { "Name" });
             }
 
             yield break;

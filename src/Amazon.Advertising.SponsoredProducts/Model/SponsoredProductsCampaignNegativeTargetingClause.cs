@@ -163,33 +163,33 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Expression == input.Expression ||
                     this.Expression != null &&
                     input.Expression != null &&
                     this.Expression.SequenceEqual(input.Expression)
-                ) && 
+                ) &&
                 (
                     this.TargetId == input.TargetId ||
                     (this.TargetId != null &&
                     this.TargetId.Equals(input.TargetId))
-                ) && 
+                ) &&
                 (
                     this.ResolvedExpression == input.ResolvedExpression ||
                     this.ResolvedExpression != null &&
                     input.ResolvedExpression != null &&
                     this.ResolvedExpression.SequenceEqual(input.ResolvedExpression)
-                ) && 
+                ) &&
                 (
                     this.CampaignId == input.CampaignId ||
                     (this.CampaignId != null &&
                     this.CampaignId.Equals(input.CampaignId))
-                ) && 
+                ) &&
                 (
                     this.State == input.State ||
                     this.State.Equals(input.State)
-                ) && 
+                ) &&
                 (
                     this.ExtendedData == input.ExtendedData ||
                     (this.ExtendedData != null &&

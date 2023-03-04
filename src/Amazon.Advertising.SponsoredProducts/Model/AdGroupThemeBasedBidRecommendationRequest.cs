@@ -155,22 +155,22 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.TargetingExpressions == input.TargetingExpressions ||
                     this.TargetingExpressions != null &&
                     input.TargetingExpressions != null &&
                     this.TargetingExpressions.SequenceEqual(input.TargetingExpressions)
-                ) && 
+                ) &&
                 (
                     this.CampaignId == input.CampaignId ||
                     (this.CampaignId != null &&
                     this.CampaignId.Equals(input.CampaignId))
-                ) && 
+                ) &&
                 (
                     this.RecommendationType == input.RecommendationType ||
                     this.RecommendationType.Equals(input.RecommendationType)
-                ) && 
+                ) &&
                 (
                     this.AdGroupId == input.AdGroupId ||
                     (this.AdGroupId != null &&

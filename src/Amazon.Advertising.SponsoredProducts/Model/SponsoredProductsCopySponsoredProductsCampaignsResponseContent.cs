@@ -99,7 +99,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.CopyCampaignResponses == input.CopyCampaignResponses ||
                     this.CopyCampaignResponses != null &&

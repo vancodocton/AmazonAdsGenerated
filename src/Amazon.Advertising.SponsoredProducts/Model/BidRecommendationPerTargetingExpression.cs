@@ -113,13 +113,13 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.BidValues == input.BidValues ||
                     this.BidValues != null &&
                     input.BidValues != null &&
                     this.BidValues.SequenceEqual(input.BidValues)
-                ) && 
+                ) &&
                 (
                     this.TargetingExpression == input.TargetingExpression ||
                     (this.TargetingExpression != null &&

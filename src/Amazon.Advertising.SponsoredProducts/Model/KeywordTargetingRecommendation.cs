@@ -206,29 +206,29 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.KeywordId == input.KeywordId ||
                     (this.KeywordId != null &&
                     this.KeywordId.Equals(input.KeywordId))
-                ) && 
+                ) &&
                 (
                     this.SuggestedBid == input.SuggestedBid ||
                     this.SuggestedBid.Equals(input.SuggestedBid)
-                ) && 
+                ) &&
                 (
                     this.MatchType == input.MatchType ||
                     this.MatchType.Equals(input.MatchType)
-                ) && 
+                ) &&
                 (
                     this.Action == input.Action ||
                     this.Action.Equals(input.Action)
-                ) && 
+                ) &&
                 (
                     this.AdGroupId == input.AdGroupId ||
                     (this.AdGroupId != null &&
                     this.AdGroupId.Equals(input.AdGroupId))
-                ) && 
+                ) &&
                 (
                     this.KeywordText == input.KeywordText ||
                     (this.KeywordText != null &&

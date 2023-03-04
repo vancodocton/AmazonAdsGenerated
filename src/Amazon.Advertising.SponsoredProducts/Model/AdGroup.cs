@@ -125,19 +125,19 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.TargetingExpressions == input.TargetingExpressions ||
                     this.TargetingExpressions != null &&
                     input.TargetingExpressions != null &&
                     this.TargetingExpressions.SequenceEqual(input.TargetingExpressions)
-                ) && 
+                ) &&
                 (
                     this.Asins == input.Asins ||
                     this.Asins != null &&
                     input.Asins != null &&
                     this.Asins.SequenceEqual(input.Asins)
-                ) && 
+                ) &&
                 (
                     this.AdGroupId == input.AdGroupId ||
                     (this.AdGroupId != null &&

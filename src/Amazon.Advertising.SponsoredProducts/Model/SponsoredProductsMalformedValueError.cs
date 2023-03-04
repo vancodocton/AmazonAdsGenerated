@@ -137,25 +137,25 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Reason == input.Reason ||
                     this.Reason.Equals(input.Reason)
-                ) && 
+                ) &&
                 (
                     this.Fragment == input.Fragment ||
                     (this.Fragment != null &&
                     this.Fragment.Equals(input.Fragment))
-                ) && 
+                ) &&
                 (
                     this.Marketplace == input.Marketplace ||
                     this.Marketplace.Equals(input.Marketplace)
-                ) && 
+                ) &&
                 (
                     this.Cause == input.Cause ||
                     (this.Cause != null &&
                     this.Cause.Equals(input.Cause))
-                ) && 
+                ) &&
                 (
                     this.Message == input.Message ||
                     (this.Message != null &&

@@ -148,29 +148,29 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.RuleState == input.RuleState ||
                     this.RuleState.Equals(input.RuleState)
-                ) && 
+                ) &&
                 (
                     this.LastUpdatedDate == input.LastUpdatedDate ||
                     this.LastUpdatedDate.Equals(input.LastUpdatedDate)
-                ) && 
+                ) &&
                 (
                     this.CreatedDate == input.CreatedDate ||
                     this.CreatedDate.Equals(input.CreatedDate)
-                ) && 
+                ) &&
                 (
                     this.RuleDetails == input.RuleDetails ||
                     (this.RuleDetails != null &&
                     this.RuleDetails.Equals(input.RuleDetails))
-                ) && 
+                ) &&
                 (
                     this.RuleId == input.RuleId ||
                     (this.RuleId != null &&
                     this.RuleId.Equals(input.RuleId))
-                ) && 
+                ) &&
                 (
                     this.RuleStatus == input.RuleStatus ||
                     (this.RuleStatus != null &&

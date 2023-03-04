@@ -134,22 +134,22 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.SpecialEvents == input.SpecialEvents ||
                     this.SpecialEvents != null &&
                     input.SpecialEvents != null &&
                     this.SpecialEvents.SequenceEqual(input.SpecialEvents)
-                ) && 
+                ) &&
                 (
                     this.DailyBudget == input.DailyBudget ||
                     this.DailyBudget.Equals(input.DailyBudget)
-                ) && 
+                ) &&
                 (
                     this.RecommendationId == input.RecommendationId ||
                     (this.RecommendationId != null &&
                     this.RecommendationId.Equals(input.RecommendationId))
-                ) && 
+                ) &&
                 (
                     this.Benchmark == input.Benchmark ||
                     (this.Benchmark != null &&

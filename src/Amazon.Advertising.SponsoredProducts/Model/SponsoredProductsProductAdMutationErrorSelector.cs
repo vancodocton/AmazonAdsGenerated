@@ -224,82 +224,82 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.EntityStateError == input.EntityStateError ||
                     (this.EntityStateError != null &&
                     this.EntityStateError.Equals(input.EntityStateError))
-                ) && 
+                ) &&
                 (
                     this.MissingValueError == input.MissingValueError ||
                     (this.MissingValueError != null &&
                     this.MissingValueError.Equals(input.MissingValueError))
-                ) && 
+                ) &&
                 (
                     this.AsinOwnershipError == input.AsinOwnershipError ||
                     (this.AsinOwnershipError != null &&
                     this.AsinOwnershipError.Equals(input.AsinOwnershipError))
-                ) && 
+                ) &&
                 (
                     this.DuplicateValueError == input.DuplicateValueError ||
                     (this.DuplicateValueError != null &&
                     this.DuplicateValueError.Equals(input.DuplicateValueError))
-                ) && 
+                ) &&
                 (
                     this.RangeError == input.RangeError ||
                     (this.RangeError != null &&
                     this.RangeError.Equals(input.RangeError))
-                ) && 
+                ) &&
                 (
                     this.UnsupportedOperationError == input.UnsupportedOperationError ||
                     (this.UnsupportedOperationError != null &&
                     this.UnsupportedOperationError.Equals(input.UnsupportedOperationError))
-                ) && 
+                ) &&
                 (
                     this.ParentEntityError == input.ParentEntityError ||
                     (this.ParentEntityError != null &&
                     this.ParentEntityError.Equals(input.ParentEntityError))
-                ) && 
+                ) &&
                 (
                     this.OtherError == input.OtherError ||
                     (this.OtherError != null &&
                     this.OtherError.Equals(input.OtherError))
-                ) && 
+                ) &&
                 (
                     this.ThrottledError == input.ThrottledError ||
                     (this.ThrottledError != null &&
                     this.ThrottledError.Equals(input.ThrottledError))
-                ) && 
+                ) &&
                 (
                     this.EntityNotFoundError == input.EntityNotFoundError ||
                     (this.EntityNotFoundError != null &&
                     this.EntityNotFoundError.Equals(input.EntityNotFoundError))
-                ) && 
+                ) &&
                 (
                     this.MalformedValueError == input.MalformedValueError ||
                     (this.MalformedValueError != null &&
                     this.MalformedValueError.Equals(input.MalformedValueError))
-                ) && 
+                ) &&
                 (
                     this.ProductIdentifierError == input.ProductIdentifierError ||
                     (this.ProductIdentifierError != null &&
                     this.ProductIdentifierError.Equals(input.ProductIdentifierError))
-                ) && 
+                ) &&
                 (
                     this.AdEligibilityError == input.AdEligibilityError ||
                     (this.AdEligibilityError != null &&
                     this.AdEligibilityError.Equals(input.AdEligibilityError))
-                ) && 
+                ) &&
                 (
                     this.BillingError == input.BillingError ||
                     (this.BillingError != null &&
                     this.BillingError.Equals(input.BillingError))
-                ) && 
+                ) &&
                 (
                     this.EntityQuotaError == input.EntityQuotaError ||
                     (this.EntityQuotaError != null &&
                     this.EntityQuotaError.Equals(input.EntityQuotaError))
-                ) && 
+                ) &&
                 (
                     this.InternalServerError == input.InternalServerError ||
                     (this.InternalServerError != null &&

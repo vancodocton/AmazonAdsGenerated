@@ -169,35 +169,35 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.NativeLanguageKeyword == input.NativeLanguageKeyword ||
                     (this.NativeLanguageKeyword != null &&
                     this.NativeLanguageKeyword.Equals(input.NativeLanguageKeyword))
-                ) && 
+                ) &&
                 (
                     this.NativeLanguageLocale == input.NativeLanguageLocale ||
                     (this.NativeLanguageLocale != null &&
                     this.NativeLanguageLocale.Equals(input.NativeLanguageLocale))
-                ) && 
+                ) &&
                 (
                     this.CampaignId == input.CampaignId ||
                     (this.CampaignId != null &&
                     this.CampaignId.Equals(input.CampaignId))
-                ) && 
+                ) &&
                 (
                     this.MatchType == input.MatchType ||
                     this.MatchType.Equals(input.MatchType)
-                ) && 
+                ) &&
                 (
                     this.Bid == input.Bid ||
                     this.Bid.Equals(input.Bid)
-                ) && 
+                ) &&
                 (
                     this.AdGroupId == input.AdGroupId ||
                     (this.AdGroupId != null &&
                     this.AdGroupId.Equals(input.AdGroupId))
-                ) && 
+                ) &&
                 (
                     this.KeywordText == input.KeywordText ||
                     (this.KeywordText != null &&
@@ -250,7 +250,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             // Bid (double) minimum
             if (this.Bid < (double)0.02)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Bid, must be a value greater than or equal to 0.02.", new [] { "Bid" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Bid, must be a value greater than or equal to 0.02.", new[] { "Bid" });
             }
 
             yield break;

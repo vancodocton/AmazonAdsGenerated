@@ -110,17 +110,17 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.CampaignOptimizationId == input.CampaignOptimizationId ||
                     (this.CampaignOptimizationId != null &&
                     this.CampaignOptimizationId.Equals(input.CampaignOptimizationId))
-                ) && 
+                ) &&
                 (
                     this.Code == input.Code ||
                     (this.Code != null &&
                     this.Code.Equals(input.Code))
-                ) && 
+                ) &&
                 (
                     this.Details == input.Details ||
                     (this.Details != null &&
@@ -163,7 +163,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             // CampaignOptimizationId (string) maxLength
             if (this.CampaignOptimizationId != null && this.CampaignOptimizationId.Length > 355)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for CampaignOptimizationId, length must be less than 355.", new [] { "CampaignOptimizationId" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for CampaignOptimizationId, length must be less than 355.", new[] { "CampaignOptimizationId" });
             }
 
             yield break;

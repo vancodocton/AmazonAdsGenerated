@@ -150,35 +150,35 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.SearchTermImpressionShare == input.SearchTermImpressionShare ||
                     this.SearchTermImpressionShare.Equals(input.SearchTermImpressionShare)
-                ) && 
+                ) &&
                 (
                     this.Translation == input.Translation ||
                     (this.Translation != null &&
                     this.Translation.Equals(input.Translation))
-                ) && 
+                ) &&
                 (
                     this.BidInfo == input.BidInfo ||
                     this.BidInfo != null &&
                     input.BidInfo != null &&
                     this.BidInfo.SequenceEqual(input.BidInfo)
-                ) && 
+                ) &&
                 (
                     this.SearchTermImpressionRank == input.SearchTermImpressionRank ||
                     this.SearchTermImpressionRank.Equals(input.SearchTermImpressionRank)
-                ) && 
+                ) &&
                 (
                     this.Keyword == input.Keyword ||
                     (this.Keyword != null &&
                     this.Keyword.Equals(input.Keyword))
-                ) && 
+                ) &&
                 (
                     this.UserSelectedKeyword == input.UserSelectedKeyword ||
                     this.UserSelectedKeyword.Equals(input.UserSelectedKeyword)
-                ) && 
+                ) &&
                 (
                     this.RecId == input.RecId ||
                     (this.RecId != null &&

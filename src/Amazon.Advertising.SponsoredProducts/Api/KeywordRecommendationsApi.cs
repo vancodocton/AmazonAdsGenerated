@@ -14,6 +14,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Net;
 using System.Net.Mime;
+
 using Amazon.Advertising.SponsoredProducts.Client;
 using Amazon.Advertising.SponsoredProducts.Model;
 
@@ -366,8 +367,8 @@ namespace Amazon.Advertising.SponsoredProducts.Api
             Amazon.Advertising.SponsoredProducts.Client.RequestOptions localVarRequestOptions = new Amazon.Advertising.SponsoredProducts.Client.RequestOptions();
 
             string[] _contentTypes = new string[] {
-                "application/vnd.spkeywordsrecommendation.v3+json", 
-                "application/vnd.spkeywordsrecommendation.v5+json", 
+                "application/vnd.spkeywordsrecommendation.v3+json",
+                "application/vnd.spkeywordsrecommendation.v5+json",
                 "application/vnd.spkeywordsrecommendation.v4+json"
             };
 

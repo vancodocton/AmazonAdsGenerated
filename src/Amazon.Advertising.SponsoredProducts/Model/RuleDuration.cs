@@ -98,12 +98,12 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.EventTypeRuleDuration == input.EventTypeRuleDuration ||
                     (this.EventTypeRuleDuration != null &&
                     this.EventTypeRuleDuration.Equals(input.EventTypeRuleDuration))
-                ) && 
+                ) &&
                 (
                     this.DateRangeTypeRuleDuration == input.DateRangeTypeRuleDuration ||
                     (this.DateRangeTypeRuleDuration != null &&

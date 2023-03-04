@@ -178,41 +178,41 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.AdId == input.AdId ||
                     (this.AdId != null &&
                     this.AdId.Equals(input.AdId))
-                ) && 
+                ) &&
                 (
                     this.CampaignId == input.CampaignId ||
                     (this.CampaignId != null &&
                     this.CampaignId.Equals(input.CampaignId))
-                ) && 
+                ) &&
                 (
                     this.CustomText == input.CustomText ||
                     (this.CustomText != null &&
                     this.CustomText.Equals(input.CustomText))
-                ) && 
+                ) &&
                 (
                     this.Asin == input.Asin ||
                     (this.Asin != null &&
                     this.Asin.Equals(input.Asin))
-                ) && 
+                ) &&
                 (
                     this.State == input.State ||
                     this.State.Equals(input.State)
-                ) && 
+                ) &&
                 (
                     this.Sku == input.Sku ||
                     (this.Sku != null &&
                     this.Sku.Equals(input.Sku))
-                ) && 
+                ) &&
                 (
                     this.AdGroupId == input.AdGroupId ||
                     (this.AdGroupId != null &&
                     this.AdGroupId.Equals(input.AdGroupId))
-                ) && 
+                ) &&
                 (
                     this.ExtendedData == input.ExtendedData ||
                     (this.ExtendedData != null &&

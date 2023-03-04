@@ -103,13 +103,13 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.PlacementBidding == input.PlacementBidding ||
                     this.PlacementBidding != null &&
                     input.PlacementBidding != null &&
                     this.PlacementBidding.SequenceEqual(input.PlacementBidding)
-                ) && 
+                ) &&
                 (
                     this.Strategy == input.Strategy ||
                     this.Strategy.Equals(input.Strategy)

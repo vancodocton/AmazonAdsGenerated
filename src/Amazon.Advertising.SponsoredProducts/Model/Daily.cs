@@ -127,17 +127,17 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Conversions == input.Conversions ||
                     (this.Conversions != null &&
                     this.Conversions.Equals(input.Conversions))
-                ) && 
+                ) &&
                 (
                     this.Clicks == input.Clicks ||
                     (this.Clicks != null &&
                     this.Clicks.Equals(input.Clicks))
-                ) && 
+                ) &&
                 (
                     this.Impressions == input.Impressions ||
                     (this.Impressions != null &&

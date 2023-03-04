@@ -89,7 +89,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.CategoryTree == input.CategoryTree ||
                     (this.CategoryTree != null &&

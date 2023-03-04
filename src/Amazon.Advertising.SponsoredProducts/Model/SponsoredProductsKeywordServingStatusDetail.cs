@@ -109,16 +109,16 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Name == input.Name ||
                     this.Name.Equals(input.Name)
-                ) && 
+                ) &&
                 (
                     this.HelpUrl == input.HelpUrl ||
                     (this.HelpUrl != null &&
                     this.HelpUrl.Equals(input.HelpUrl))
-                ) && 
+                ) &&
                 (
                     this.Message == input.Message ||
                     (this.Message != null &&

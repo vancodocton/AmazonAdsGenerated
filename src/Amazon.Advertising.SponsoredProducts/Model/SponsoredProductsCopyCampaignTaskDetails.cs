@@ -169,45 +169,45 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.TargetMarketplaceId == input.TargetMarketplaceId ||
                     (this.TargetMarketplaceId != null &&
                     this.TargetMarketplaceId.Equals(input.TargetMarketplaceId))
-                ) && 
+                ) &&
                 (
                     this.TargetCampaignId == input.TargetCampaignId ||
                     (this.TargetCampaignId != null &&
                     this.TargetCampaignId.Equals(input.TargetCampaignId))
-                ) && 
+                ) &&
                 (
                     this.PercentageCompleted == input.PercentageCompleted ||
                     this.PercentageCompleted.Equals(input.PercentageCompleted)
-                ) && 
+                ) &&
                 (
                     this.SourceMarketplaceId == input.SourceMarketplaceId ||
                     (this.SourceMarketplaceId != null &&
                     this.SourceMarketplaceId.Equals(input.SourceMarketplaceId))
-                ) && 
+                ) &&
                 (
                     this.SourceCampaignId == input.SourceCampaignId ||
                     (this.SourceCampaignId != null &&
                     this.SourceCampaignId.Equals(input.SourceCampaignId))
-                ) && 
+                ) &&
                 (
                     this.SourceAdvertiserId == input.SourceAdvertiserId ||
                     (this.SourceAdvertiserId != null &&
                     this.SourceAdvertiserId.Equals(input.SourceAdvertiserId))
-                ) && 
+                ) &&
                 (
                     this.TargetAdvertiserId == input.TargetAdvertiserId ||
                     (this.TargetAdvertiserId != null &&
                     this.TargetAdvertiserId.Equals(input.TargetAdvertiserId))
-                ) && 
+                ) &&
                 (
                     this.Status == input.Status ||
                     this.Status.Equals(input.Status)
-                ) && 
+                ) &&
                 (
                     this.ErrorDetails == input.ErrorDetails ||
                     this.ErrorDetails != null &&

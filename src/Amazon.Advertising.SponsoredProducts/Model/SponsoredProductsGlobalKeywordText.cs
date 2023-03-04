@@ -118,17 +118,17 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.MarketplaceSettings == input.MarketplaceSettings ||
                     this.MarketplaceSettings != null &&
                     input.MarketplaceSettings != null &&
                     this.MarketplaceSettings.SequenceEqual(input.MarketplaceSettings)
-                ) && 
+                ) &&
                 (
                     this.Locale == input.Locale ||
                     this.Locale.Equals(input.Locale)
-                ) && 
+                ) &&
                 (
                     this.Value == input.Value ||
                     (this.Value != null &&

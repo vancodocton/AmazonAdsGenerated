@@ -100,13 +100,13 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.CampaignOptimizationRecommendations == input.CampaignOptimizationRecommendations ||
                     this.CampaignOptimizationRecommendations != null &&
                     input.CampaignOptimizationRecommendations != null &&
                     this.CampaignOptimizationRecommendations.SequenceEqual(input.CampaignOptimizationRecommendations)
-                ) && 
+                ) &&
                 (
                     this.CampaignOptimizationRecommendationsError == input.CampaignOptimizationRecommendationsError ||
                     this.CampaignOptimizationRecommendationsError != null &&

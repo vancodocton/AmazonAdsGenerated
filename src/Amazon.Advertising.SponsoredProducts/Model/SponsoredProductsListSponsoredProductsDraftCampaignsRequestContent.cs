@@ -137,30 +137,30 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.CampaignIdFilter == input.CampaignIdFilter ||
                     (this.CampaignIdFilter != null &&
                     this.CampaignIdFilter.Equals(input.CampaignIdFilter))
-                ) && 
+                ) &&
                 (
                     this.PortfolioIdFilter == input.PortfolioIdFilter ||
                     (this.PortfolioIdFilter != null &&
                     this.PortfolioIdFilter.Equals(input.PortfolioIdFilter))
-                ) && 
+                ) &&
                 (
                     this.MaxResults == input.MaxResults ||
                     this.MaxResults.Equals(input.MaxResults)
-                ) && 
+                ) &&
                 (
                     this.NextToken == input.NextToken ||
                     (this.NextToken != null &&
                     this.NextToken.Equals(input.NextToken))
-                ) && 
+                ) &&
                 (
                     this.IncludeExtendedDataFields == input.IncludeExtendedDataFields ||
                     this.IncludeExtendedDataFields.Equals(input.IncludeExtendedDataFields)
-                ) && 
+                ) &&
                 (
                     this.NameFilter == input.NameFilter ||
                     (this.NameFilter != null &&

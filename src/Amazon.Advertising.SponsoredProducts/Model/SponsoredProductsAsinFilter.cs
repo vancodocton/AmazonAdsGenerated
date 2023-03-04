@@ -98,11 +98,11 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.QueryTermMatchType == input.QueryTermMatchType ||
                     this.QueryTermMatchType.Equals(input.QueryTermMatchType)
-                ) && 
+                ) &&
                 (
                     this.Include == input.Include ||
                     this.Include != null &&

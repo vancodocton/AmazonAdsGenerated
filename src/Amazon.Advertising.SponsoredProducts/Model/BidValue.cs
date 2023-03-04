@@ -95,7 +95,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.SuggestedBid == input.SuggestedBid ||
                     this.SuggestedBid.Equals(input.SuggestedBid)
@@ -126,7 +126,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             // SuggestedBid (double) minimum
             if (this.SuggestedBid < (double)0)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for SuggestedBid, must be a value greater than or equal to 0.", new [] { "SuggestedBid" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for SuggestedBid, must be a value greater than or equal to 0.", new[] { "SuggestedBid" });
             }
 
             yield break;

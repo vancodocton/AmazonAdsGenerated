@@ -98,11 +98,11 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Min == input.Min ||
                     this.Min.Equals(input.Min)
-                ) && 
+                ) &&
                 (
                     this.Max == input.Max ||
                     this.Max.Equals(input.Max)

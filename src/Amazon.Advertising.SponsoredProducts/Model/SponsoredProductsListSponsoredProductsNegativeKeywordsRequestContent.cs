@@ -175,50 +175,50 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.CampaignIdFilter == input.CampaignIdFilter ||
                     (this.CampaignIdFilter != null &&
                     this.CampaignIdFilter.Equals(input.CampaignIdFilter))
-                ) && 
+                ) &&
                 (
                     this.StateFilter == input.StateFilter ||
                     (this.StateFilter != null &&
                     this.StateFilter.Equals(input.StateFilter))
-                ) && 
+                ) &&
                 (
                     this.NegativeKeywordTextFilter == input.NegativeKeywordTextFilter ||
                     (this.NegativeKeywordTextFilter != null &&
                     this.NegativeKeywordTextFilter.Equals(input.NegativeKeywordTextFilter))
-                ) && 
+                ) &&
                 (
                     this.MaxResults == input.MaxResults ||
                     this.MaxResults.Equals(input.MaxResults)
-                ) && 
+                ) &&
                 (
                     this.NextToken == input.NextToken ||
                     (this.NextToken != null &&
                     this.NextToken.Equals(input.NextToken))
-                ) && 
+                ) &&
                 (
                     this.AdGroupIdFilter == input.AdGroupIdFilter ||
                     (this.AdGroupIdFilter != null &&
                     this.AdGroupIdFilter.Equals(input.AdGroupIdFilter))
-                ) && 
+                ) &&
                 (
                     this.IncludeExtendedDataFields == input.IncludeExtendedDataFields ||
                     this.IncludeExtendedDataFields.Equals(input.IncludeExtendedDataFields)
-                ) && 
+                ) &&
                 (
                     this.Locale == input.Locale ||
                     (this.Locale != null &&
                     this.Locale.Equals(input.Locale))
-                ) && 
+                ) &&
                 (
                     this.NegativeKeywordIdFilter == input.NegativeKeywordIdFilter ||
                     (this.NegativeKeywordIdFilter != null &&
                     this.NegativeKeywordIdFilter.Equals(input.NegativeKeywordIdFilter))
-                ) && 
+                ) &&
                 (
                     this.MatchTypeFilter == input.MatchTypeFilter ||
                     this.MatchTypeFilter != null &&

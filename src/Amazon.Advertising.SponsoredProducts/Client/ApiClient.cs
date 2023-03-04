@@ -483,7 +483,7 @@ namespace Amazon.Advertising.SponsoredProducts.Client
             {
                 try
                 {
-                    response.Data = (T) typeof(T).GetMethod("FromJson").Invoke(null, new object[] { response.Content });
+                    response.Data = (T)typeof(T).GetMethod("FromJson").Invoke(null, new object[] { response.Content });
                 }
                 catch (Exception ex)
                 {
@@ -576,7 +576,7 @@ namespace Amazon.Advertising.SponsoredProducts.Client
             // if the response type is oneOf/anyOf, call FromJSON to deserialize the data
             if (typeof(Amazon.Advertising.SponsoredProducts.Model.AbstractOpenAPISchema).IsAssignableFrom(typeof(T)))
             {
-                response.Data = (T) typeof(T).GetMethod("FromJson").Invoke(null, new object[] { response.Content });
+                response.Data = (T)typeof(T).GetMethod("FromJson").Invoke(null, new object[] { response.Content });
             }
             else if (typeof(T).Name == "Stream") // for binary response
             {

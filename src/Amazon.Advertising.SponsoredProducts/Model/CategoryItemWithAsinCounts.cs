@@ -129,27 +129,27 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.CategoryPath == input.CategoryPath ||
                     (this.CategoryPath != null &&
                     this.CategoryPath.Equals(input.CategoryPath))
-                ) && 
+                ) &&
                 (
                     this.Name == input.Name ||
                     (this.Name != null &&
                     this.Name.Equals(input.Name))
-                ) && 
+                ) &&
                 (
                     this.AsinCounts == input.AsinCounts ||
                     (this.AsinCounts != null &&
                     this.AsinCounts.Equals(input.AsinCounts))
-                ) && 
+                ) &&
                 (
                     this.ParentCategoryId == input.ParentCategoryId ||
                     (this.ParentCategoryId != null &&
                     this.ParentCategoryId.Equals(input.ParentCategoryId))
-                ) && 
+                ) &&
                 (
                     this.Id == input.Id ||
                     (this.Id != null &&

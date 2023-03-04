@@ -110,19 +110,19 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.AgeRanges == input.AgeRanges ||
                     this.AgeRanges != null &&
                     input.AgeRanges != null &&
                     this.AgeRanges.SequenceEqual(input.AgeRanges)
-                ) && 
+                ) &&
                 (
                     this.Brands == input.Brands ||
                     this.Brands != null &&
                     input.Brands != null &&
                     this.Brands.SequenceEqual(input.Brands)
-                ) && 
+                ) &&
                 (
                     this.Genres == input.Genres ||
                     this.Genres != null &&

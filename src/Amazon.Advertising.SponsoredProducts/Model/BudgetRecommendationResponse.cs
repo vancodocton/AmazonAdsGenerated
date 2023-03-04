@@ -115,13 +115,13 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.BudgetRecommendationsSuccessResults == input.BudgetRecommendationsSuccessResults ||
                     this.BudgetRecommendationsSuccessResults != null &&
                     input.BudgetRecommendationsSuccessResults != null &&
                     this.BudgetRecommendationsSuccessResults.SequenceEqual(input.BudgetRecommendationsSuccessResults)
-                ) && 
+                ) &&
                 (
                     this.BudgetRecommendationsErrorResults == input.BudgetRecommendationsErrorResults ||
                     this.BudgetRecommendationsErrorResults != null &&

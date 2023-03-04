@@ -114,16 +114,16 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.AdGroup == input.AdGroup ||
                     (this.AdGroup != null &&
                     this.AdGroup.Equals(input.AdGroup))
-                ) && 
+                ) &&
                 (
                     this.Index == input.Index ||
                     this.Index.Equals(input.Index)
-                ) && 
+                ) &&
                 (
                     this.AdGroupId == input.AdGroupId ||
                     (this.AdGroupId != null &&
@@ -163,7 +163,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             // Index (int) minimum
             if (this.Index < (int)0)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Index, must be a value greater than or equal to 0.", new [] { "Index" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Index, must be a value greater than or equal to 0.", new[] { "Index" });
             }
 
             yield break;

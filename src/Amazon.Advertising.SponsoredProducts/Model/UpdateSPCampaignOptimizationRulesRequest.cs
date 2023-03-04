@@ -166,35 +166,35 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Recurrence == input.Recurrence ||
                     this.Recurrence.Equals(input.Recurrence)
-                ) && 
+                ) &&
                 (
                     this.RuleAction == input.RuleAction ||
                     this.RuleAction.Equals(input.RuleAction)
-                ) && 
+                ) &&
                 (
                     this.CampaignOptimizationId == input.CampaignOptimizationId ||
                     (this.CampaignOptimizationId != null &&
                     this.CampaignOptimizationId.Equals(input.CampaignOptimizationId))
-                ) && 
+                ) &&
                 (
                     this.RuleCondition == input.RuleCondition ||
                     this.RuleCondition != null &&
                     input.RuleCondition != null &&
                     this.RuleCondition.SequenceEqual(input.RuleCondition)
-                ) && 
+                ) &&
                 (
                     this.RuleType == input.RuleType ||
                     this.RuleType.Equals(input.RuleType)
-                ) && 
+                ) &&
                 (
                     this.RuleName == input.RuleName ||
                     (this.RuleName != null &&
                     this.RuleName.Equals(input.RuleName))
-                ) && 
+                ) &&
                 (
                     this.CampaignIds == input.CampaignIds ||
                     this.CampaignIds != null &&
@@ -245,13 +245,13 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             // CampaignOptimizationId (string) maxLength
             if (this.CampaignOptimizationId != null && this.CampaignOptimizationId.Length > 355)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for CampaignOptimizationId, length must be less than 355.", new [] { "CampaignOptimizationId" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for CampaignOptimizationId, length must be less than 355.", new[] { "CampaignOptimizationId" });
             }
 
             // RuleName (string) maxLength
             if (this.RuleName != null && this.RuleName.Length > 355)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for RuleName, length must be less than 355.", new [] { "RuleName" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for RuleName, length must be less than 355.", new[] { "RuleName" });
             }
 
             yield break;

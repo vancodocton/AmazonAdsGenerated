@@ -56,13 +56,15 @@ namespace Amazon.Advertising.SponsoredProducts.Client
             }
             else if (value is IDictionary dictionary)
             {
-                if(collectionFormat == "deepObject") {
+                if (collectionFormat == "deepObject")
+                {
                     foreach (DictionaryEntry entry in dictionary)
                     {
                         parameters.Add(name + "[" + entry.Key + "]", ParameterToString(entry.Value));
                     }
                 }
-                else {
+                else
+                {
                     foreach (DictionaryEntry entry in dictionary)
                     {
                         parameters.Add(entry.Key.ToString(), ParameterToString(entry.Value));
@@ -217,7 +219,7 @@ namespace Amazon.Advertising.SponsoredProducts.Client
             var memInfo = enumType.GetMember(enumVal.ToString() ?? throw new InvalidOperationException());
             var attr = memInfo.FirstOrDefault()?.GetCustomAttributes(false).OfType<EnumMemberAttribute>().FirstOrDefault();
             if (attr != null) return true;
-                return false;
+            return false;
         }
 
         /// <summary>

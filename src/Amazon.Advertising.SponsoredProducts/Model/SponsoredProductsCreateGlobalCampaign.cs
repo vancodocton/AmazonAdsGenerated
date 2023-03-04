@@ -177,41 +177,41 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.EndDate == input.EndDate ||
                     (this.EndDate != null &&
                     this.EndDate.Equals(input.EndDate))
-                ) && 
+                ) &&
                 (
                     this.Name == input.Name ||
                     (this.Name != null &&
                     this.Name.Equals(input.Name))
-                ) && 
+                ) &&
                 (
                     this.TargetingType == input.TargetingType ||
                     this.TargetingType.Equals(input.TargetingType)
-                ) && 
+                ) &&
                 (
                     this.State == input.State ||
                     (this.State != null &&
                     this.State.Equals(input.State))
-                ) && 
+                ) &&
                 (
                     this.DynamicBidding == input.DynamicBidding ||
                     (this.DynamicBidding != null &&
                     this.DynamicBidding.Equals(input.DynamicBidding))
-                ) && 
+                ) &&
                 (
                     this.StartDate == input.StartDate ||
                     (this.StartDate != null &&
                     this.StartDate.Equals(input.StartDate))
-                ) && 
+                ) &&
                 (
                     this.Budget == input.Budget ||
                     (this.Budget != null &&
                     this.Budget.Equals(input.Budget))
-                ) && 
+                ) &&
                 (
                     this.Tags == input.Tags ||
                     this.Tags != null &&

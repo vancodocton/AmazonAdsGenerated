@@ -133,21 +133,21 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.PromotionState == input.PromotionState ||
                     this.PromotionState.Equals(input.PromotionState)
-                ) && 
+                ) &&
                 (
                     this.CampaignId == input.CampaignId ||
                     (this.CampaignId != null &&
                     this.CampaignId.Equals(input.CampaignId))
-                ) && 
+                ) &&
                 (
                     this.DestinationId == input.DestinationId ||
                     (this.DestinationId != null &&
                     this.DestinationId.Equals(input.DestinationId))
-                ) && 
+                ) &&
                 (
                     this.Errors == input.Errors ||
                     this.Errors != null &&

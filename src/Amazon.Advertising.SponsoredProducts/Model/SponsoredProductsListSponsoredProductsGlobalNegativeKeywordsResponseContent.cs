@@ -109,17 +109,17 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.NegativeKeywords == input.NegativeKeywords ||
                     this.NegativeKeywords != null &&
                     input.NegativeKeywords != null &&
                     this.NegativeKeywords.SequenceEqual(input.NegativeKeywords)
-                ) && 
+                ) &&
                 (
                     this.TotalResults == input.TotalResults ||
                     this.TotalResults.Equals(input.TotalResults)
-                ) && 
+                ) &&
                 (
                     this.NextToken == input.NextToken ||
                     (this.NextToken != null &&

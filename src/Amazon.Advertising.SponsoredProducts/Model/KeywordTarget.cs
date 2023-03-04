@@ -147,20 +147,20 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.MatchType == input.MatchType ||
                     this.MatchType.Equals(input.MatchType)
-                ) && 
+                ) &&
                 (
                     this.Keyword == input.Keyword ||
                     (this.Keyword != null &&
                     this.Keyword.Equals(input.Keyword))
-                ) && 
+                ) &&
                 (
                     this.Bid == input.Bid ||
                     this.Bid.Equals(input.Bid)
-                ) && 
+                ) &&
                 (
                     this.UserSelectedKeyword == input.UserSelectedKeyword ||
                     this.UserSelectedKeyword.Equals(input.UserSelectedKeyword)

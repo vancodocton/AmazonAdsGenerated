@@ -154,31 +154,31 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.CampaignId == input.CampaignId ||
                     (this.CampaignId != null &&
                     this.CampaignId.Equals(input.CampaignId))
-                ) && 
+                ) &&
                 (
                     this.CustomText == input.CustomText ||
                     (this.CustomText != null &&
                     this.CustomText.Equals(input.CustomText))
-                ) && 
+                ) &&
                 (
                     this.Asin == input.Asin ||
                     (this.Asin != null &&
                     this.Asin.Equals(input.Asin))
-                ) && 
+                ) &&
                 (
                     this.State == input.State ||
                     this.State.Equals(input.State)
-                ) && 
+                ) &&
                 (
                     this.Sku == input.Sku ||
                     (this.Sku != null &&
                     this.Sku.Equals(input.Sku))
-                ) && 
+                ) &&
                 (
                     this.AdGroupId == input.AdGroupId ||
                     (this.AdGroupId != null &&
@@ -230,20 +230,20 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             // CustomText (string) maxLength
             if (this.CustomText != null && this.CustomText.Length > 150)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for CustomText, length must be less than 150.", new [] { "CustomText" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for CustomText, length must be less than 150.", new[] { "CustomText" });
             }
 
             // CustomText (string) minLength
             if (this.CustomText != null && this.CustomText.Length < 50)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for CustomText, length must be greater than 50.", new [] { "CustomText" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for CustomText, length must be greater than 50.", new[] { "CustomText" });
             }
 
             // CustomText (string) pattern
             Regex regexCustomText = new Regex(@"^[^a-z<>^][^<>^]+", RegexOptions.CultureInvariant);
             if (false == regexCustomText.Match(this.CustomText).Success)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for CustomText, must match a pattern of " + regexCustomText, new [] { "CustomText" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for CustomText, must match a pattern of " + regexCustomText, new[] { "CustomText" });
             }
 
             yield break;

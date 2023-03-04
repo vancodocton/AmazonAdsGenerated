@@ -180,7 +180,8 @@ namespace Amazon.Advertising.SponsoredProducts.Client
         /// <summary>
         /// Gets or sets the base path for API access.
         /// </summary>
-        public virtual string BasePath {
+        public virtual string BasePath
+        {
             get { return _basePath; }
             set { _basePath = value; }
         }
@@ -520,7 +521,7 @@ namespace Amazon.Advertising.SponsoredProducts.Client
         {
             string report = "C# SDK (Amazon.Advertising.SponsoredProducts) Debug Report:\n";
             report += "    OS: " + System.Environment.OSVersion + "\n";
-            report += "    .NET Framework Version: " + System.Environment.Version  + "\n";
+            report += "    .NET Framework Version: " + System.Environment.Version + "\n";
             report += "    Version of the API: 3.0\n";
             report += "    SDK Package Version: 1.0.0\n";
 

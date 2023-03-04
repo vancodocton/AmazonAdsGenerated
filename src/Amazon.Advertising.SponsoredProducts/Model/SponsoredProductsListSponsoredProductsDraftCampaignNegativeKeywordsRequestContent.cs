@@ -146,35 +146,35 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.CampaignIdFilter == input.CampaignIdFilter ||
                     (this.CampaignIdFilter != null &&
                     this.CampaignIdFilter.Equals(input.CampaignIdFilter))
-                ) && 
+                ) &&
                 (
                     this.CampaignNegativeKeywordIdFilter == input.CampaignNegativeKeywordIdFilter ||
                     (this.CampaignNegativeKeywordIdFilter != null &&
                     this.CampaignNegativeKeywordIdFilter.Equals(input.CampaignNegativeKeywordIdFilter))
-                ) && 
+                ) &&
                 (
                     this.MaxResults == input.MaxResults ||
                     this.MaxResults.Equals(input.MaxResults)
-                ) && 
+                ) &&
                 (
                     this.NextToken == input.NextToken ||
                     (this.NextToken != null &&
                     this.NextToken.Equals(input.NextToken))
-                ) && 
+                ) &&
                 (
                     this.IncludeExtendedDataFields == input.IncludeExtendedDataFields ||
                     this.IncludeExtendedDataFields.Equals(input.IncludeExtendedDataFields)
-                ) && 
+                ) &&
                 (
                     this.CampaignNegativeKeywordTextFilter == input.CampaignNegativeKeywordTextFilter ||
                     (this.CampaignNegativeKeywordTextFilter != null &&
                     this.CampaignNegativeKeywordTextFilter.Equals(input.CampaignNegativeKeywordTextFilter))
-                ) && 
+                ) &&
                 (
                     this.MatchTypeFilter == input.MatchTypeFilter ||
                     this.MatchTypeFilter.Equals(input.MatchTypeFilter)

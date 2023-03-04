@@ -113,17 +113,17 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.BudgetType == input.BudgetType ||
                     this.BudgetType.Equals(input.BudgetType)
-                ) && 
+                ) &&
                 (
                     this.MarketplaceSettings == input.MarketplaceSettings ||
                     this.MarketplaceSettings != null &&
                     input.MarketplaceSettings != null &&
                     this.MarketplaceSettings.SequenceEqual(input.MarketplaceSettings)
-                ) && 
+                ) &&
                 (
                     this.Currency == input.Currency ||
                     this.Currency.Equals(input.Currency)

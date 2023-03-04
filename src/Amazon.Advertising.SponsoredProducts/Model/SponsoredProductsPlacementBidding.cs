@@ -98,11 +98,11 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.Percentage == input.Percentage ||
                     this.Percentage.Equals(input.Percentage)
-                ) && 
+                ) &&
                 (
                     this.Placement == input.Placement ||
                     this.Placement.Equals(input.Placement)
@@ -134,13 +134,13 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             // Percentage (int) maximum
             if (this.Percentage > (int)900)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Percentage, must be a value less than or equal to 900.", new [] { "Percentage" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Percentage, must be a value less than or equal to 900.", new[] { "Percentage" });
             }
 
             // Percentage (int) minimum
             if (this.Percentage < (int)0)
             {
-                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Percentage, must be a value greater than or equal to 0.", new [] { "Percentage" });
+                yield return new System.ComponentModel.DataAnnotations.ValidationResult("Invalid value for Percentage, must be a value greater than or equal to 0.", new[] { "Percentage" });
             }
 
             yield break;

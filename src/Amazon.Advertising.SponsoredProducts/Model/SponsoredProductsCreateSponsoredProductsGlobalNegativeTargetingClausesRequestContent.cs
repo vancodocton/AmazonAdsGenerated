@@ -90,7 +90,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.NegativeTargetingClauses == input.NegativeTargetingClauses ||
                     this.NegativeTargetingClauses != null &&

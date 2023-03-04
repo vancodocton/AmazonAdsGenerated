@@ -114,12 +114,12 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.ErrorType == input.ErrorType ||
                     (this.ErrorType != null &&
                     this.ErrorType.Equals(input.ErrorType))
-                ) && 
+                ) &&
                 (
                     this.ErrorValue == input.ErrorValue ||
                     (this.ErrorValue != null &&

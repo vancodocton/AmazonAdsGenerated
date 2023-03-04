@@ -42,7 +42,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
         public SPGetBudgetRulesRecommendationRequest(SPBudgetRulesRecommendationEventRequest actualInstance)
         {
             this.IsNullable = false;
-            this.SchemaType= "oneOf";
+            this.SchemaType = "oneOf";
             this.ActualInstance = actualInstance ?? throw new ArgumentException("Invalid instance found. Must not be null.");
         }
 
@@ -227,7 +227,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
         /// <returns>The object converted from the JSON string</returns>
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
         {
-            if(reader.TokenType != JsonToken.Null)
+            if (reader.TokenType != JsonToken.Null)
             {
                 return SPGetBudgetRulesRecommendationRequest.FromJson(JObject.Load(reader).ToString(Formatting.None));
             }

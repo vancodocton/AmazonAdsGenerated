@@ -9,6 +9,7 @@
 
 
 using Polly;
+
 using RestSharp;
 
 namespace Amazon.Advertising.SponsoredProducts.Client

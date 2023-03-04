@@ -100,13 +100,13 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.BudgetRulesForAdvertiserResponse == input.BudgetRulesForAdvertiserResponse ||
                     this.BudgetRulesForAdvertiserResponse != null &&
                     input.BudgetRulesForAdvertiserResponse != null &&
                     this.BudgetRulesForAdvertiserResponse.SequenceEqual(input.BudgetRulesForAdvertiserResponse)
-                ) && 
+                ) &&
                 (
                     this.NextToken == input.NextToken ||
                     (this.NextToken != null &&

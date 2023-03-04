@@ -90,7 +90,7 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.AssociatedRules == input.AssociatedRules ||
                     this.AssociatedRules != null &&

@@ -108,17 +108,17 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.RequestId == input.RequestId ||
                     (this.RequestId != null &&
                     this.RequestId.Equals(input.RequestId))
-                ) && 
+                ) &&
                 (
                     this.ErrorDetail == input.ErrorDetail ||
                     (this.ErrorDetail != null &&
                     this.ErrorDetail.Equals(input.ErrorDetail))
-                ) && 
+                ) &&
                 (
                     this.CopyCampaignItem == input.CopyCampaignItem ||
                     (this.CopyCampaignItem != null &&

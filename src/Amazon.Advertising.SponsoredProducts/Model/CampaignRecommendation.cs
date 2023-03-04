@@ -135,33 +135,33 @@ namespace Amazon.Advertising.SponsoredProducts.Model
             {
                 return false;
             }
-            return 
+            return
                 (
                     this.SevenDaysEstimatedOpportunities == input.SevenDaysEstimatedOpportunities ||
                     (this.SevenDaysEstimatedOpportunities != null &&
                     this.SevenDaysEstimatedOpportunities.Equals(input.SevenDaysEstimatedOpportunities))
-                ) && 
+                ) &&
                 (
                     this.BiddingStrategyRecommendation == input.BiddingStrategyRecommendation ||
                     (this.BiddingStrategyRecommendation != null &&
                     this.BiddingStrategyRecommendation.Equals(input.BiddingStrategyRecommendation))
-                ) && 
+                ) &&
                 (
                     this.CampaignId == input.CampaignId ||
                     (this.CampaignId != null &&
                     this.CampaignId.Equals(input.CampaignId))
-                ) && 
+                ) &&
                 (
                     this.KeywordTargetingRecommendations == input.KeywordTargetingRecommendations ||
                     this.KeywordTargetingRecommendations != null &&
                     input.KeywordTargetingRecommendations != null &&
                     this.KeywordTargetingRecommendations.SequenceEqual(input.KeywordTargetingRecommendations)
-                ) && 
+                ) &&
                 (
                     this.BudgetRecommendation == input.BudgetRecommendation ||
                     (this.BudgetRecommendation != null &&
                     this.BudgetRecommendation.Equals(input.BudgetRecommendation))
-                ) && 
+                ) &&
                 (
                     this.TargetingGroupBidRecommendations == input.TargetingGroupBidRecommendations ||
                     this.TargetingGroupBidRecommendations != null &&
