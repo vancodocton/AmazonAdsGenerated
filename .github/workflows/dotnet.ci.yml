@@ -35,7 +35,7 @@ jobs:
       run: dotnet build -c Release --no-restore
 
     - name: Format Checking
-      run: dotnet format --no-restore
+      run: dotnet format --no-restore --severity info
 
     - name: Clear
       run: git clean -fdx
@@ -44,4 +44,6 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: linted-$GITHUB_ACTION
-        path: .
+        path: |
+          .
+          !.git
