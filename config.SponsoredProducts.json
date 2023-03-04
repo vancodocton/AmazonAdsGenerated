@@ -1,0 +1,5 @@
+{
+  "packageName": "Amazon.Advertising.SponsoredProducts",
+  "targetFramework": "net7.0",
+  "netCoreProjectFile": true
+}
